@@ -2,7 +2,7 @@
 A multi-axis cognitive OS engineered entirely through natural language.
 Now including Lite Quick Start + Live Demo + full Six-Module architecture.
 
-Concept by Takeshi Sakamoto + PolyAgora Engine
+Concept by Masaya Ochiai + PolyAgora Engine
 
 🧭 TL;DR
 
@@ -460,10 +460,34 @@ https://github.com/Takeshi-Sakamoto5/ArcOS
 
 📜 License
 
-CC BY-NC-SA 4.0
-Attribution required
-Non-commercial
-Share alike
+This project uses a *three-layer license structure* designed to maximize
+open-source adoption while ensuring correct attribution of authorship and
+protection of project names (ArcOS / PolyAgora).
+
+### 1. Code License — Apache License 2.0  
+All source code in this repository is licensed under the **Apache License 2.0**.  
+This allows free use, modification, distribution, and commercial adoption.
+
+A copy of the license is included in the `LICENSE` file.
+
+### 2. Documentation License — CC BY 4.0  
+All documentation, conceptual explanations, system diagrams, and text content  
+are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You must provide attribution to:
+
+**Masaya Ochiai**  
+
+when redistributing or adapting any documentation.
+
+A copy of this license is included in `LICENSE_docs`.
+
+### 3. Trademarks — "ArcOS" and "PolyAgora"  
+The names **"ArcOS"** and **"PolyAgora"** are trademarks of **Masaya Ochiai**.  
+They may not be used for modified versions or commercial products without permission.
+
+See `TRADEMARK_POLICY.md` for details.
+
 
 ✨ Final Note — The New Era of OS Design
 
