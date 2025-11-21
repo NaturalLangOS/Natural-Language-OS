@@ -1,4 +1,6 @@
 # 🚀 PolyAgora v1.0 — The First Natural-Language Multi-Agent OS
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17675442.svg)](https://doi.org/10.5281/zenodo.17675442)
+
 **A fully natural-language, multi-axis cognitive operating system built without code.**
 
 **Concept by:** Masaya Ochiai  
