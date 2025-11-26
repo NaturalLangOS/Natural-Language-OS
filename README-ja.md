@@ -81,6 +81,7 @@ From now on, structure your reasoning according to my cognitive patterns:
 
 ## 📄 Whitepaper
 
+## Whitepapers (ArcOS v1.1)
 
 📘 **Official DOI (All Editions):**  
 https://doi.org/10.5281/zenodo.17713576
