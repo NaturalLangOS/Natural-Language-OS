@@ -2,143 +2,206 @@
 
 This repository is the **umbrella hub** for the entire Natural Language OS ecosystem created by **Masaya Ochiai**.
 
-Natural Language OS (NL-OS) is a family of operating systems that use **natural language as the primary interface and control layer**:
+Natural Language OS (NL-OS) is defined as:
 
-- As **theory**: “What is a Natural Language OS?” (conceptual & philosophical layer)
-- As **engines**: ArcOS, PolyAgora, Echoos, Triagora, etc. (executable OS instances)
-- As **applications**: Smart-home OS, home-computer NL-OS, embedded / IoT integrations
+> **An operating system that defines its structure, configuration, and behavior in natural language,  
+> and executes these rules on top of an LLM acting as its kernel.**
 
-This repo does **three things**:
+Unlike conventional operating systems whose logic is written in code,  
+a Natural Language OS treats **language as its specification, control layer,  
+state representation, and cognitive framework**.
 
-1. Defines the **taxonomy** of Natural Language OS.
-2. Serves as a **directory** linking to each engine / project.
-3. Acts as the **entry point** for researchers, developers, and future contributors.
+This hub provides:
 
----
-
-## 1. Taxonomy of Natural Language OS
-
-The NL-OS ecosystem is organized into **three layers**:
-
-### 1. Foundations (Conceptual Layer)
-
-> “What is a Natural Language OS?”
-
-- Definitions & core concepts  
-- Language-as-OS / language-as-code paradigm  
-- OS as a value system (preferences, decision rules, cognitive structure)  
-- Theoretical papers and whitepapers (e.g., *What is a Natural Language OS?*)
-
-**Folder (planned):**
-- `Foundations/` — specs, theory notes, whitepapers (links to Zenodo etc.)
+1. A unified **taxonomy** of Natural Language OS  
+2. Links to all **engine implementations** (ArcOS, PolyAgora, Echoos, etc.)  
+3. A complete **Foundations → Engines → Applications** architecture  
+4. The starting point for researchers, engineers, and future contributors
 
 ---
 
-### 2. Engines (Implementation Layer)
+# 1. What is a Natural Language OS?
 
-> “Concrete OS instances implemented purely in natural language.”
+A Natural Language OS is:
 
-These are **executable Natural Language OS engines** that run on top of LLMs.
+- written in **natural language**  
+- executed by an **LLM kernel** (GPT / Claude / Grok etc.)  
+- capable of holding **persistent value systems**  
+- able to maintain **OS boundaries (namespace)**  
+- able to run **reasoning pipelines, mode structures, multi-agent cognition**  
+- a full cognitive OS rather than a prompt or chatbot
 
-- **ArcOS — Cognitive Clone OS**  
-  Repository: https://github.com/Takeshi-Sakamoto5/ArcOS  
-  - Executes a user’s cognitive structure deterministically at machine speed  
-  - Focus: personal value system, zero-drift reasoning, deterministic alignment
-
-- **PolyAgora — Cognitive Collective Engine**  
-  Repository: https://github.com/Takeshi-Sakamoto5/PolyAgora  
-  - Multi-agent / multi-axis cognitive OS  
-  - 6 modules (Arc / Ann / Saku / Kanzaki / Yui / Kou) with strict reference isolation  
-  - Tri-Axis architecture and multi-set reasoning cycles
-
-- **Echoos / Triagora / others**  
-  (To be added as new engines are released)
-
-**Folder (planned):**
-- `Engines/` — high-level specs, diagrams, cross-engine comparisons
+This concept is fully defined and formalized in the  
+**Natural Language OS Whitepaper (Ochiai, 2025)**.
 
 ---
 
-### 3. Applications (Applied NL-OS Layer)
+# 2. Three-Layer NL-OS Architecture  
+*(Aligned 100% with the Whitepaper)*
 
-> “How NL-OS runs on real devices and environments.”
+A Natural Language OS is structured into **three layers**,  
+as defined in the whitepaper (Ochiai, 2025):
 
-Examples:
+### **1. Persistent Layer — long-term OS memory**
+- values / priorities  
+- stable behavioral rules  
+- decision criteria  
+- preferred reasoning styles  
+- identity & worldview structure  
 
-- **Home-Computer NL-OS**  
-  - NL-OS that runs as a “personal OS” on a home PC  
-  - Manages tasks, knowledge, and tools via natural language
-
-- **Smart-Home / Appliance NL-OS**  
-  - NL-OS + embedded / edge LLM  
-  - Synchronizes with household appliances (AC, lights, washing machine, etc.)  
-  - Handles state synchronization, intent synchronization, and goal synchronization
-
-- **Embedded / Robotics NL-OS**  
-  - NL-OS as the high-level cognitive layer on devices and robots
-
-**Folder (planned):**
-- `Applications/` — design notes, example specs, integration guides
+This acts as the “OS files” of NL-OS.
 
 ---
 
-## 2. Repositories in the Ecosystem
+### **2. Runtime Layer — execution during the current session**
+- active reasoning  
+- mode switching  
+- state tracking  
+- temporary overrides  
+- cognitive processes performed *now*
 
-### Core Engines
-
-- **ArcOS** — Cognitive Clone Operating System  
-  → https://github.com/Takeshi-Sakamoto5/ArcOS-v1.1
-
-- **PolyAgora** — Cognitive Collective Engine  
-  → https://github.com/Takeshi-Sakamoto5/PolyAgora  
-
-- **Echoos / Triagora / others**  
-  → (To be added)
-
-### Foundations (planned)
-
-- “What is a Natural Language OS?” — theory & definition  
-- “NL-OS for Home Computing” — how to install & run NL-OS on a personal computer  
-- “NL-OS × Smart-Home & Embedded LLM” — architecture for appliances / IoT
-
-These will be linked here once their Zenodo entries are published.
+This is the “active CPU process” of the OS.
 
 ---
 
-## 3. How to Navigate This Ecosystem
+### **3. Meta Layer — boundary & orchestration**
+- namespace management  
+- cross-OS arbitration  
+- mode contamination prevention  
+- consistency checks  
+- OS supervision and safety
 
-If you are:
-
-- 🧠 **Researcher**  
-  - Start with **Foundations** (NL-OS definitions, theory)  
-  - Then read **ArcOS** and **PolyAgora** as concrete engines
-
-- 🧪 **Engineer / Builder**  
-  - Start from **ArcOS** and **PolyAgora** repos  
-  - Use this hub to understand where each engine fits in the NL-OS taxonomy
-
-- 🏠 **Smart-home / product designer**  
-  - Check the **Applications** section  
-  - Focus on NL-OS × home computers / appliances / embedded LLMs
+This is unique to NL-OS and not found in traditional OS design.
 
 ---
 
-## 4. Status
+# 3. Ecosystem Taxonomy
 
-- ✅ ArcOS — public
-- ✅ PolyAgora — public
-- ⏳ Echoos / Triagora — in progress
-- ⏳ Foundations papers — drafting
-- ⏳ Applications specs — drafting
-
-This repository will serve as the **single source of truth**  
-for the structure and evolution of the Natural Language OS ecosystem.
+The Natural Language OS ecosystem consists of three top-level categories:
 
 ---
 
-## 5. Contact
+## **A. Foundations (Conceptual Layer)**
 
-Author / Concept Designer: **Masaya Ochiai**  
-X (Twitter): https://twitter.com/polyagora6
+The theoretical and philosophical basis of NL-OS:
 
-(Additional links and documentation will be added as the ecosystem evolves.)
+- What is a Natural Language OS?  
+- Language-as-Code paradigm  
+- Persistent / Runtime / Meta architecture  
+- OS boundary (namespace) theory  
+- Value-system as OS kernel  
+- Safety, governance, and limitations  
+- NL-OS vs prompts, agents, RAG, classic OS, cognitive architectures
+
+📁 Folder: `Foundations/`  
+📄 Whitepapers will be linked here (via Zenodo DOIs)
+
+---
+
+## **B. Engines (Implementation Layer)**
+
+Executable Natural Language OS instances built purely in natural language.
+
+### **ArcOS — Cognitive Clone OS**  
+https://github.com/Takeshi-Sakamoto5/ArcOS  
+- Deterministic reasoning based on a user’s cognitive structure  
+- Zero-drift alignment with personal worldview  
+- Persistent values and mode architecture
+
+### **PolyAgora — Cognitive Collective Engine**  
+https://github.com/Takeshi-Sakamoto5/PolyAgora  
+- Multi-agent / multi-axis cognition  
+- 6 modules with strict reference isolation  
+- Divergence → Collision → Synthesis cycles  
+- Realistic multi-party reasoning
+
+### **Echoos / Triagora / KagamiOS / GrowthLab (planned)**
+
+📁 Folder: `Engines/`  
+Internal specs, comparisons, OS suite structure
+
+---
+
+## **C. Applications (Applied Layer)**
+
+How NL-OS runs in real environments:
+
+### **Home-Computer NL-OS**  
+- Personal cognitive OS running on top of an LLM  
+- Task planning, memory, value-aligned reasoning  
+- Multi-OS orchestration for daily workflow
+
+### **Smart-Home NL-OS**  
+- Appliance integration  
+- State synchronization  
+- Intent → value → action mapping  
+- Safety & ambiguity governance
+
+### **Embedded / IoT / Robotics NL-OS**  
+- Edge LLM integration  
+- High-level cognitive controller for real devices
+
+📁 Folder: `Applications/`
+
+---
+
+# 4. Repository Index
+
+### **Foundations**
+- Definitions  
+- NL-OS taxonomy  
+- Whitepapers (Zenodo)  
+- OS theory
+
+### **Engines**
+- ArcOS  
+- PolyAgora  
+- Echoos  
+- Future OS modules
+
+### **Applications**
+- Home-Computer OS  
+- Smart-Home OS  
+- Embedded NL-OS specs
+
+---
+
+# 5. Why Natural Language OS Matters
+
+Natural Language OS is the **third category of OS**, after:
+
+1. **Hardware OS**（Linux / Windows / macOS）  
+2. **Software orchestration OS**（Agent frameworks, workflow systems）  
+3. **Cognitive OS (Natural Language OS)** ← *this project*
+
+NL-OS enables:
+
+- language as code  
+- externalized cognition  
+- stable reasoning  
+- value-based decision kernels  
+- multi-agent cognitive field  
+- OS-level consistency  
+- future smart-home / robotics OS integration  
+- “external brain” architectures
+
+It is not a prompt.  
+It is not a chatbot.  
+It is a full **OS written in language**.
+
+---
+
+# 6. Author
+
+**Masaya Ochiai (2025)**  
+Creator of ArcOS, PolyAgora, Echoos, NL-OS taxonomy  
+X: https://twitter.com/polyagora6
+
+---
+
+# 7. License / Notes
+
+- Individual engines have their own LICENSE files  
+- Whitepapers will be archived with Zenodo DOI  
+- This repository serves as the *master specification hub*
+
