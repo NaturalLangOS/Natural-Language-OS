@@ -1,14 +1,16 @@
-# ⚙ Natural Language OS — Engines (Implementation Layer)
+## Engines Layer
 
-This folder contains the executable Natural Language OS engines  
-that operate on top of an LLM kernel.
+The Engines layer hosts all first-party OS implementations derived from the Natural-Language OS paradigm.  
+Each engine represents a distinct operational interpretation of the NL-OS architecture and executes as a full OS instance in natural language.
 
-While the Foundations layer defines *what* a Natural Language OS is,  
-the Engines layer contains the systems that *actually run as OS instances*  
-in natural language.
+### Included Engines
+- **ArcOS** — Cognitive Clone OS  
+- **PolyAgora** — Multi-Axis Reasoning OS  
+- **Echoos** — Lightweight Natural-Language OS  
+- **NLtask** — Task-Oriented Natural-Language OS  
 
 All engines in this folder conform to the NL-OS architecture defined in the  
-Natural Language OS Whitepaper (Ochiai, 2025).
+*Natural-Language OS Whitepaper (Ochiai, 2025)*.
 
 ---
 
